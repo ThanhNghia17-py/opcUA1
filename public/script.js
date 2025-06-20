@@ -1,4 +1,4 @@
-const apiURL = "https://opcua-2.onrender.com/data"; // đổi thành đúng backend bạn
+const apiURL = "https://opcua1.onrender.com/data"; // đổi thành đúng backend bạn
 
 function fetchData() {
   fetch(apiURL)

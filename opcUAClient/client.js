@@ -38,7 +38,7 @@ async function main() {
         // Gửi dữ liệu lên backend
         const payload = { number1, number2 };
 
-        axios.post("https://opcua-2.onrender.com/data", payload)
+        axios.post("https://opcua1.onrender.com/data", payload)
           .then(res => console.log("📤 Gửi thành công:", res.data))
           .catch(err => console.error("❌ Lỗi gửi dữ liệu:", err.message));
 
